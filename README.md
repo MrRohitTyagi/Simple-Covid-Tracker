@@ -7,7 +7,7 @@
 To deploy this project run
 
 
-🌎 Live demo: https://mrrohittyagi.github.io/Simple-Covid-Tracker/ 
+🌎 Live demo: https://op-covid-tracker.netlify.app/
 
 
 ## Tech Stack
