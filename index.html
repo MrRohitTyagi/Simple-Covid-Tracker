@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Covid Tracker</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
-<body >
+
+<body>
 
     <div class="head">
 
         <h1 class="h1" style="display: flex; justify-content: center; align-items: center;">Country Covid Meter</h1>
     </div>
-    <div class="mark">
 
+    <div class="mark">
         <marquee scrollamount="10" class="marq" direction="left"></marquee>
     </div>
 
@@ -25,51 +27,61 @@
         <input type="text" placeholder="Enter country Name" value="" class="inp">
         <button class="but">Search</button>
     </div>
-        
-    <div style="margin-bottom: 4vh;">
-        
-        <h2 class="place"></h2>
-        <h2 class="pop"></h2>   
-    </div>
-    <div class="all" style="display: flex; justify-content: space-evenly;">
 
-        
+    <div style="margin-bottom: 4vh;">
+
+        <h2 class="place"></h2>
+        <h2 class="pop"></h2>
+    </div>
+    <div class="all" >
+
+
         <div class="card">
-            
+
             <h2>Cases</h2>
-            <div class="text-center active"> </div>    
+            <div class="text-center active"> </div>
             <div class="text-center critical"> </div>
             <div class="text-center recovered"></div>
             <div class="text-center total"></div>
         </div>
-        
+
         <div class="card">
-            
+
             <h2>Deaths</h2>
             <div class="text-center totalD"> </div>
             <div class="text-center totalDper1m"> </div>
         </div>
-            
+
         <div class="card">
 
             <h2>Total Tests</h2>
-            
+
             <div class="text-center totaltests"></div>
             <div class="text-center totalper1m"></div>
         </div>
-        
+
     </div>
+
+    <div class="news-cont">
+
+        <div>
+
+            <h2 style="margin-left:2vw; text-decoration: underline;">Indian Covid News</h2>
+            
+        </div>
+    </div>
+
 
     <footer>
 
         &#169 ROHIT TYAGI
     </footer>
-        
-        
-        
-        <script src="script.js"></script>
-        <script src=
-    "https://smtpjs.com/v3/smtp.js">
-  </script>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
 </body>
+
 </html>

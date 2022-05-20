@@ -5,17 +5,7 @@ body{
     margin-right: 2vw;
 
 }
-.card{
 
-    background-color: wheat !important;
-    border: royalblue 3px solid !important;
-    border-radius: 50px;
-    color: black;
-    padding: 1vw;
-    transition-duration: 300ms;
-    width: 25vw;
-    
-}
 .card:hover{
     transform: scale(1.1);
     
@@ -23,21 +13,35 @@ body{
 .but{
     border: royalblue 3px solid !important;
     border-radius: 50px;
-    
+    cursor: pointer;
     height: 6vh;
     width: 10vw;
     margin-left: 1vw;
 }
+.but:hover{
+    border: 3px solid red;
+    transform: scale(1.02);
+}
+.but:active{
+    transform: scale(0.9);
+}
+
 .inp{
+    transition-duration:0.5s ;
+
     border: royalblue 3px solid !important;
     border-radius: 50px;
     height: 5vh;
+    cursor: pointer;
     
 }
+.inp:active{
+    transform: scale(1.1);
+}
 footer{
-    margin: 3vh;
     display: flex;
     justify-content: center;
+    
 }
 .head{
     border: royalblue 3px solid !important;
@@ -61,6 +65,7 @@ footer{
     font-size: inherit  ;
     padding-left: 1vw;
     padding-right: 1vw;
+    cursor: pointer;
     
 }
 .all h2{
@@ -73,4 +78,80 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.news-cont{
+    margin-top: 4vh;
+    border-radius: 30px;
+    width: 95vw;
+    background-color: blanchedalmond;
+    color: black;
+    overflow: hidden;
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+    
+}
+.newslines{
+    margin-left: 2vw;
+    padding-top: 1vh;
+    /* background-color: pink; */
+}
+.news-btn{
+    text-decoration:  none;
+    margin-left: 1vw;
+    border-radius: 30px;
+    background-color: rgb(240, 209, 170);
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1vw;
+    cursor: pointer;
+}
+.news-btn:active{
+    transform: scale(0.5);
+}
+.card{
 
+    background-color: wheat !important;
+    border: royalblue 3px solid !important;
+    border-radius: 20px;
+    color: black;
+    padding: 1vw;
+    transition-duration: 300ms;
+    
+
+    width: 25vw;
+    
+}
+.all{
+    display:flex ;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width:600px) {
+    .all{
+        display:block ;
+        
+    }
+    .card{
+        /* margin: 2vh; */
+        width: 93%;
+        margin: 2vw;
+    }
+    .pop{
+        font-size: inherit;
+    }
+    .place{
+        font-size: inherit;
+    }
+    .inp{
+        width: auto ;
+    }
+    .but{
+        width: auto;
+    }
+    .news-cont{
+        margin: auto;
+        width: 90vw;
+    }
+    .news-btn{
+        font-size: 3vw;
+    }
+}
