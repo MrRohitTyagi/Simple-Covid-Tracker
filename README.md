@@ -12,6 +12,6 @@ To deploy this project run
 
 ## Tech Stack
 
- HTML , CSS , Javascript 
+ HTML , CSS , Javascript ,Covid meter API for data 
 
 
